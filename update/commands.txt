@@ -1,0 +1,7 @@
+# For local use
+
+sudo \
+    DATABASE_HOST="host.docker.internal" \
+    DATABASE_USER="root" \
+    DATABASE_PASS="password" \
+    bash updateUsers.sh -p <path to input>
